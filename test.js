@@ -10,7 +10,7 @@ test("One dollar should be 156.5 yen", function() {
     const yen = fromDollarToYen(1);
     const expected = (1 / 1.07) * 156.5;
     expect(yen).toBeCloseTo(expected);
-});
+})
 
 test("One Yen should be 0.87 dollars", function() {
     const { fromYenToPound } = require('./app.js');
