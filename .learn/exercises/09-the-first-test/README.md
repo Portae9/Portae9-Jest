@@ -22,9 +22,9 @@ According to our planned functionalities, we will need to write tests to make su
 For example, the test function to make sure that the function `fromEuroToDollar` has been successfully implemented. It is something like this:
 
 ```js
-test("One euro should be 1.07 dollars", function() {
     // Import the function from app.js
     const { fromEuroToDollar } = require('./app.js');
+test("One euro should be 1.07 dollars", function() {
 
     // Use the function like its supposed to be used
     const dollars = fromEuroToDollar(3.5);
